@@ -7,7 +7,7 @@ function App() {
     <>
       <Navbar />
       <ItemListContainer />
-      <CounterContainer stock={5}/>
+      <CounterContainer stock={5} />
     </>
   );
 }

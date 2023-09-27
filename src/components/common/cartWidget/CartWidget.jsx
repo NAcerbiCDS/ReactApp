@@ -1,7 +1,7 @@
 import { Badge } from "@mui/material";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
-const CartWidget = () => {
+const CartWidget = ( {contador} ) => {
 
 return (
     <div>

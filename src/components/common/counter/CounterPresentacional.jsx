@@ -1,13 +1,13 @@
-const CounterPresentacional = ( {sumar, contador, restar, nombre, setNombre} ) => {
+import * as React from 'react';
+import Button from '@mui/material/Button';
+
+const CounterPresentacional = ( {sumar, contador, restar } ) => {
 
   return (
-    <div>
-      <button onClick={sumar}>sumar</button>
+    <div className='contenedorCentral'>
+      <Button onClick={sumar} variant="contained" color="success">sumar</Button>
       <h4> {contador} </h4>
-      <button onClick={restar}>restar</button>
-
-      <h4>{nombre}</h4>
-      <button onClick={()=>setNombre("juancito")}>Cambiar nombre</button>
+      <Button onClick={restar} variant="outlined" color="error">restar</Button>
     </div>
   );
 };

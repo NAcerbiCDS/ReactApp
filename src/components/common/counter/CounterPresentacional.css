@@ -1,0 +1,6 @@
+.contenedorCentral{
+    display: flex;
+    position: relative;
+    width: 2%;
+    align-content: center;
+}
