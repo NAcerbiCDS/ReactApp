@@ -7,21 +7,9 @@ function App() {
     <>
       <Navbar />
       <ItemListContainer />
-      <CounterContainer />
-      <h2>Hola</h2>
+      <CounterContainer stock={5}/>
     </>
   );
 }
 
 export default App;
-
-// const sumar = ()=>{
-
-//   let a = 15
-//   let b = 12
-
-//   let nombre= "juan"
-
-//   return a b nombre
-
-// }
