@@ -1,23 +1,27 @@
-import * as React from 'react';
-import CartWidget from "../../common/cartWidget/CartWidget";
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
-import "./Navbar.css";
+import CartWidget from '../../common/cartWidget/CartWidget';
+import './Navbar.css';
+import { Outlet, Link } from 'react-router-dom';
 
 export const Navbar = () => {
-  return (
-    <div className={"containerNavbar"}>
-      <h2 className="title">Mate<span className={"bluePrimary"}>sur</span></h2>
-
-      <Stack spacing={2} direction="row">
-        <Button variant="outlined" onClick={()=>{alert("Ingreso a la seccion de mates")}}>Mates</Button>
-        <Button variant="outlined" onClick={()=>{alert("Ingreso a la seccion de bombillas")}}>Bombillas</Button>
-        <Button variant="outlined" onClick={()=>{alert("Ingreso a la seccion de yerba")}}>Yerba</Button>
-        <Button variant="outlined" onClick={()=>{alert("Ingreso a la seccion de accesorios")}}>Accesorios</Button>
-        <Button variant="outlined" onClick={()=>{alert("Ingreso a la seccion de nosotros")}}>Sobre nosotros</Button>
-      </Stack>
-      <CartWidget />
-    </div>
-    
-  );
+    return (
+        <>
+            <div className={'containerNavbar'}>
+                <Link to="/">
+                    <h4>Comision 47225</h4>
+                </Link>
+                <ul className="categories">
+                    <Link to="/">
+                        <li>Todas</li>
+                    </Link>
+                    <Link to="/category/urbanas">
+                        <li>Urbanas</li>
+                    </Link>
+                    <Link to="/category/deportivas">
+                        <li>Deportivas</li>
+                    </Link>
+                </ul>
+                <CartWidget />
+            </div>
+        </>
+    );
 };
