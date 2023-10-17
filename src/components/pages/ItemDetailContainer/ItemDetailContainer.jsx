@@ -6,15 +6,14 @@ import { useParams } from 'react-router-dom';
 const ItemDetailContainer = () => {
     const [productSelected, setProductSelected] = useState({});
 
-    let { id } = useParams();
-    id = parseInt(id);
+    let { id } = parseInt(useParams());
 
     useEffect(() => {
         let producto = products.find((product) => product.id === +id);
-        console.log(products);
+
         const getProduct = new Promise((resolve, reject) => {
             resolve(producto);
-            // reject("error");
+            reject('error');
         });
 
         getProduct

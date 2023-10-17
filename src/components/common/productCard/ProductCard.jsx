@@ -1,3 +1,4 @@
+import { Center } from '@chakra-ui/react';
 import {
     Button,
     Card,
@@ -12,7 +13,12 @@ const ProductCard = ({ item }) => {
     return (
         <Card sx={{ Width: 200, Height: 200 }}>
             <CardMedia
-                sx={{ height: 140 }}
+                sx={{
+                    height: 400,
+                    width: 200,
+                    paddingLeft: '200px',
+                    paddingRight: '200px',
+                }}
                 image={item.pictureUrl}
                 title={`image ${item.title}`}
             />
@@ -24,7 +30,7 @@ const ProductCard = ({ item }) => {
                     {item.description}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                    $ {item.price} .-
+                    $ {item.price}
                 </Typography>
             </CardContent>
             <CardActions>
