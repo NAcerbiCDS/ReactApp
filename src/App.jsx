@@ -7,18 +7,20 @@ import Layout from './components/layout/Layout';
 function App() {
     return (
         <BrowserRouter>
-            <Routes element={<Layout />}>
-                <Route path="/" element={<Layout />} />
-                <Route
-                    path="/category/:categoryName"
-                    element={<ItemListContainer />}
-                />
-                <Route path="/cart" element={<Cart />} />
-                <Route
-                    path="/itemDatail/:id"
-                    element={<ItemDetailContainer />}
-                />
-                {/* <Route path="*" element={<h1>Not found</h1>} /> */}
+            <Routes>
+                <Route element={<Layout />}>
+                    <Route path="/" element={<ItemListContainer />} />
+                    <Route
+                        path="/category/:categoryName"
+                        element={<ItemListContainer />}
+                    />
+                    <Route path="/cart" element={<Cart />} />
+                    <Route
+                        path="/itemDatail/:id"
+                        element={<ItemDetailContainer />}
+                    />
+                    {/* <Route path="*" element={<h1>Not found</h1>} /> */}
+                </Route>
             </Routes>
         </BrowserRouter>
     );
