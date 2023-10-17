@@ -1,6 +1,6 @@
 export let products = [
     {
-        id: '1',
+        id: 1,
         category: 'empanadas',
         title: 'Empanada vegetariana',
         description:
@@ -11,7 +11,7 @@ export let products = [
         stock: 1000,
     },
     {
-        id: '2',
+        id: 2,
         category: 'empanadas',
         title: 'Empanada de carne',
         description:
@@ -22,7 +22,7 @@ export let products = [
         stock: 1000,
     },
     {
-        id: '3',
+        id: 3,
         category: 'empanadas',
         title: 'Empanada de carne cortada a cuchillo',
         description:
@@ -33,7 +33,7 @@ export let products = [
         stock: 1000,
     },
     {
-        id: '4',
+        id: 4,
         category: 'pizzas',
         title: 'Muzzarella',
         description: 'Test description',
@@ -43,7 +43,7 @@ export let products = [
         stock: 1000,
     },
     {
-        id: '5',
+        id: 5,
         category: 'pizzas',
         title: 'Fugazzeta',
         description: 'Test description',
@@ -53,7 +53,7 @@ export let products = [
         stock: 1000,
     },
     {
-        id: '6',
+        id: 6,
         category: 'pizzas',
         title: 'Napolitana',
         description: 'Test description',
@@ -63,7 +63,7 @@ export let products = [
         stock: 1000,
     },
     {
-        id: '7',
+        id: 7,
         category: 'calzones',
         title: 'Calzone napolitano',
         description: 'Muzzarella, tomate en rodajas, jamón y provenzal.',
@@ -73,7 +73,7 @@ export let products = [
         stock: 1000,
     },
     {
-        id: '8',
+        id: 8,
         category: 'calzones',
         title: 'Calzone roquefort',
         description: 'Muzzarella, jamón y roquefort.',
@@ -83,7 +83,7 @@ export let products = [
         stock: 1000,
     },
     {
-        id: '9',
+        id: 9,
         category: 'calzones',
         title: 'Calzone mix de vegetales',
         description:
@@ -94,7 +94,7 @@ export let products = [
         stock: 1000,
     },
     {
-        id: '10',
+        id: 10,
         category: 'porciones',
         title: 'Fugazzeta rellena',
         description: '',
@@ -104,7 +104,7 @@ export let products = [
         stock: 1000,
     },
     {
-        id: '11',
+        id: 11,
         category: 'porciones',
         title: 'Fugazzeta',
         description: '',
@@ -114,7 +114,7 @@ export let products = [
         stock: 1000,
     },
     {
-        id: '12',
+        id: 12,
         category: 'cocina',
         title: 'Medallón de lomo con guarnición',
         description: '',
@@ -124,7 +124,7 @@ export let products = [
         stock: 1000,
     },
     {
-        id: '13',
+        id: 13,
         category: 'cocina',
         title: 'Lomo a la pimienta negra con guarnición',
         description: '',
@@ -134,7 +134,7 @@ export let products = [
         stock: 1000,
     },
     {
-        id: '14',
+        id: 14,
         category: 'cocina',
         title: 'Lomo al champiñón con guarnición',
         description: '',
@@ -144,7 +144,7 @@ export let products = [
         stock: 1000,
     },
     {
-        id: '15',
+        id: 15,
         category: 'vinos',
         title: 'Saint Felicien Malbec',
         description: '',
@@ -154,7 +154,7 @@ export let products = [
         stock: 1000,
     },
     {
-        id: '16',
+        id: 16,
         category: 'vinos',
         title: 'Navarro Correas Colección Privada Malbec',
         description: '',
@@ -164,7 +164,7 @@ export let products = [
         stock: 1000,
     },
     {
-        id: '17',
+        id: 17,
         category: 'vinos',
         title: 'Escorihuela Gascon Malbec',
         description: '',
@@ -174,7 +174,7 @@ export let products = [
         stock: 1000,
     },
     {
-        id: '18',
+        id: 18,
         category: 'vinos',
         title: 'Nicasia Malbec',
         description: '',
