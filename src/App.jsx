@@ -19,7 +19,7 @@ function App() {
                         path="/itemDetail/:id"
                         element={<ItemDetailContainer />}
                     />
-                    {/* <Route path="*" element={<h1>Not found</h1>} /> */}
+                    <Route path="*" element={<h1>Not found</h1>} />
                 </Route>
             </Routes>
         </BrowserRouter>

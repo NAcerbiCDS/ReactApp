@@ -2,3 +2,8 @@
   margin: 5px;
   padding: 0;
 }
+a {
+  text-decoration: none; /* Elimina la subrayado por defecto */
+  color: inherit; /* Hereda el color del texto del elemento contenedor */
+  /* Puedes agregar otros estilos personalizados según tus necesidades */
+}

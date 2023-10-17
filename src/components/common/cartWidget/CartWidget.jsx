@@ -1,16 +1,19 @@
-import { Badge } from "@mui/material";
+import { Badge } from '@mui/material';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
-const CartWidget = ( {contador} ) => {
-
-return (
-    <div>
-        <Badge badgeContent={2} color="secondary" >
-            <ShoppingCartIcon color="action" onClick={()=>{"Vista carrito"}} />
-        </Badge>
-    </div>
-    
-);
+const CartWidget = ({ contador }) => {
+    return (
+        <div>
+            <Badge badgeContent={2} color="secondary">
+                <ShoppingCartIcon
+                    color="action"
+                    onClick={() => {
+                        'Vista carrito';
+                    }}
+                />
+            </Badge>
+        </div>
+    );
 };
 
 export default CartWidget;
