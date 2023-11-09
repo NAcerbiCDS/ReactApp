@@ -1,9 +1,22 @@
-*{
-  margin: 5px;
-  padding: 0;
+html,
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
 a {
-  text-decoration: none; /* Elimina la subrayado por defecto */
-  color: inherit; /* Hereda el color del texto del elemento contenedor */
-  /* Puedes agregar otros estilos personalizados según tus necesidades */
+    color: #3483fa;
+    text-decoration: none;
+}
+a:hover {
+    color: #1259c3;
 }

@@ -1,12 +1,16 @@
-#Gift
+# E-commerce project in ReactJS
 
-![SegundaEntrega](https://github.com/NAcerbiCDS/ReactApp/blob/master/SegundaEntrega.gif)
+## Dependencias extras
 
-# React + Vite
+- **Material UI**: Provee una robusta, personalizable y accesible librería de componentes avanzados, habilitando su desarrollo de diseño necesario para aplicaciones con ReactJS.
+- **Firebase**: Plataforma móvil de Google que te ayuda a desarrollar apps de alta calidad con rapidez sin preocuparnos de tener un BackEnd.
+- **React Router DOM**: Usado para el sistema de navegación entre páginas para que funcione como una SPA.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Instalación
 
-Currently, two official plugins are available:
+Este proyecto requiere [NodeJS](https://nodejs.org/) para su ejecución.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```Bash
+npm install
+npm start
+```
